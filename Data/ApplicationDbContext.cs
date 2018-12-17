@@ -17,6 +17,7 @@ namespace MyWedding.Data
         }
 
         // Define custom entities here
+        public DbSet<Guest> Guests { get; set; }
 
     }
 }
